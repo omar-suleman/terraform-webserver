@@ -21,8 +21,8 @@ provider "aws" {
   profile = "training"
 }
 
-resource "aws_s3_bucket" "omars-super-cool-bucket" {
-  bucket = "omars-cool-bucket"
+resource "aws_s3_bucket" "test-bucket" {
+  bucket = "test-bucket"
 }
 
 /* # 2. Create a VPC 

@@ -25,7 +25,7 @@ resource "aws_s3_bucket" "test-bucket" {
   bucket = "test-bucket"
 }
 
-/* # 2. Create a VPC 
+# 2. Create a VPC 
 resource "aws_vpc" "prod" {
   cidr_block = "10.0.0.0/17"
 }
@@ -153,4 +153,4 @@ output "server_private_ip" {
 
 output "server_id" {
   value = aws_instance.web-server-instance.id
-} */
+}
